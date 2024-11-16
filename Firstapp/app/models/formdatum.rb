@@ -1,0 +1,2 @@
+class Formdatum < ApplicationRecord
+end

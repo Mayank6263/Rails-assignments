@@ -1,0 +1,2 @@
+class Formdb < ApplicationRecord
+end

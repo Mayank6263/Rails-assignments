@@ -1,0 +1,11 @@
+<h1>Show data of student</h1>
+<table border="1">
+	<tr>
+	<% @show.each do |record| %>
+	<td><%= record.id %></td>
+	<td><%= record.student_name %></td>
+	<td><%= record.rollnum %></td>
+	<td><%= record.class_name %></td>
+	</tr>
+	<% end %>
+</table>
